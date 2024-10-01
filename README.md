@@ -1,25 +1,34 @@
-# Fizzi Website - Final code
+# 3D Project with React Three Fiber
 
-This is the final code for the YouTube tutorial course where we build a 3D animated e-commerce landing page for the fictional soda brand, Fizzi!
+## Table of Contents
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-For more information and to watch the course go to the [course documentation](https://dub.sh/fizzi).
+## Introduction
+This project is a 3D application built with **React Three Fiber**, a React renderer for Three.js. It aims to provide an immersive 3D experience, showcasing the capabilities of web-based graphics.
 
-## Skip the tutorial and launch the site
+## Technologies Used
+- **React**: A JavaScript library for building user interfaces.
+- **React Three Fiber**: A React renderer for Three.js, allowing you to build 3D scenes declaratively.
+- **Three.js**: A powerful JavaScript library for creating 3D graphics in the browser.
+- **Tailwind CSS**: A utility-first CSS framework for styling components.
+- **Framer Motion**: A library for creating animations in React applications.
 
-If you don’t want to go through the tutorial, but want your own version of the website deployed on Prismic, follow these directions:
+## Features
+- **Interactive 3D Models**: Load and interact with 3D models.
+- **Custom Animations**: Utilize Framer Motion for smooth transitions and animations.
+- **Responsive Design**: Ensure compatibility across various screen sizes with Tailwind CSS.
+- **User-friendly Interface**: Simple navigation and controls for interacting with the 3D scene.
 
-1. Clone the code:
-    
-    ```tsx
-    npx @slicemachine/init@latest --starter course-fizzi-next
-    ```
-    
-2. Open the Prismic repository and select “English - United States”.
-3. Run the content set up script:
-    
-    ```tsx
-    npm run set-up-content
-    ```
-    
-4. Open the migration release and publish it. A URL will be printed on the screen.
-5. Set up the slice simulator URL: `http://localhost:3000/slice-simulator`
+## Installation
+To get started with the project, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone
+   cd your-repo-name
